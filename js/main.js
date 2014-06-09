@@ -1,10 +1,10 @@
 requirejs.config({
     "paths": {
-      "jquery": "http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min"
+      "jquery": "http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min"
     }
 });
 
-require(["jquery", "app", "portfolio"], function($, App, Portfolio) {
+require(["jquery", "app.min", "portfolio"], function($, App, Portfolio) {
 
 	App.init();
 	Portfolio.init();

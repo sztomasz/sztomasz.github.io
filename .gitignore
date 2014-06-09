@@ -213,3 +213,14 @@ pip-log.txt
 
 #Mr Developer
 .mr.developer.cfg
+
+node_modules/
+css/style.css
+js/app.js
+Gruntfile.js
+js/app.min.js
+js/we.js
+package.json
+gulpfile.js
+js/app.js
+css/style.css
